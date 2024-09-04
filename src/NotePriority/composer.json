@@ -1,0 +1,19 @@
+{
+  "name": "supportpal-plugin/note-priority",
+  "type": "supportpal-plugin",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "David Benard"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": { "Addons\\Plugins\\": "../.."}
+  },
+  "config": {
+    "prepend-autoloader": false
+  }
+}
